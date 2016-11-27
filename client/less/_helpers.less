@@ -1,0 +1,10 @@
+._clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html ._clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html ._clearfix { zoom: 1; } /* IE7 */
